@@ -14,16 +14,16 @@ const Home = () => {
     return (
       <div className="">
         <Navbar />
-        {/* <div className="min-h-screen flex flex-col justify-center items-center">
-        <LuConstruction style={{ fontSize: "7em", color: "black" }} />
-        <h1 className="text-2xl">Under Construction</h1>
-      </div> */}
-        <div className="flex flex-row">
+        <div className="min-h-screen flex flex-col justify-center items-center">
+          <LuConstruction style={{ fontSize: "7em", color: "black" }} />
+          <h1 className="text-2xl">Under Construction</h1>
+        </div>
+        {/* <div className="flex flex-row">
           <div>
             <Blogs />
           </div>
           <Personal />
-        </div>
+        </div> */}
       </div>
     );
   }
