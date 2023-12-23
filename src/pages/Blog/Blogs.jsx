@@ -27,7 +27,7 @@ function Blogs() {
               ))}
             </ul>
           </div>
-          <div className="max-md:w-full w-3/5 overflow-x-hidden">
+          <div className="max-md:w-full w-3/5 overflow-x-hidden flex justify-end">
             <Outlet />
           </div>
         </div>
