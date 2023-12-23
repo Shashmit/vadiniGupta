@@ -7,8 +7,17 @@ function IndividualBlog({ blog }) {
   const out = blog.find((product) => product.slug === slug);
 
   return (
-    <div >
-      <p>{out.content}</p>
+    <div className="flex flex-col items-center">
+      <p
+        className="poem"
+        style={{
+          whiteSpace: "pre-line",
+          lineHeight: 1.5,
+          textAlign: "end",
+        }}
+      >
+        {out.content.text}
+      </p>
     </div>
   );
 }

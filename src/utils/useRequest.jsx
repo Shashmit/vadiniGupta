@@ -13,7 +13,9 @@ export function useGetBlog() {
         id
         title
         slug
-        content
+        content {
+          text
+        }
       }
     }
   `;
