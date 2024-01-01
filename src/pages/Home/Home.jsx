@@ -16,7 +16,7 @@ const Home = () => {
     <div className="">
       <Navbar />
       {isPersonalPage ? (
-        <div className="w-full p-5 md:flex md:justify-between flex  justify-end">
+        <div className="w-full p-5 md:flex md:justify-between flex justify-end px-10">
           <ul className="max-md:hidden">
             {blogData?.map(({ id, title, slug }) => (
               <li key={id} className="">
@@ -32,7 +32,7 @@ const Home = () => {
           <Personal />
         </div>
       ) : (
-        <div className="p-5 ">
+        <div className="p-5 px-10">
           <Blogs />
         </div>
       )}
