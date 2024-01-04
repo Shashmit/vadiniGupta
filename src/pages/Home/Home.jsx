@@ -12,6 +12,7 @@ const Home = () => {
   const params = useParams();
   const isPersonalPage = Object.keys(params).length === 0;
   const { data: blogData, status } = useGetBlog();
+
   return (
     <div className="">
       <Navbar />
@@ -22,7 +23,7 @@ const Home = () => {
               <li key={id} className="">
                 <Link
                   to={`${slug}`}
-                  className="text-blue-500 hover:text-blue-700 font-['Courier_New']"
+                  className="text-white hover:text-gray-800 underline underline-offset-2 font-['Courier_New']"
                 >
                   {title}
                 </Link>

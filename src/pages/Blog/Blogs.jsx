@@ -4,6 +4,11 @@ import React from "react";
 
 function Blogs() {
   const { data: blogData, status } = useGetBlog();
+  const [idk, setIdk] = React.useState("");
+
+  function handleClick(e) {
+    setIdk("text-red-500");
+  }
 
   return (
     <div className="">
@@ -14,12 +19,13 @@ function Blogs() {
       ) : (
         <div className="flex">
           <div className="max-md:hidden w-2/5">
-            <ul className="">
+            <ul>
               {blogData.map(({ id, title, slug }) => (
                 <li key={id} className="">
                   <Link
                     to={`${slug}`}
-                    className="text-blue-500 hover:text-blue-700 font-['Courier_New']"
+                    className={`text-white hover:text-gray-800 underline underline-offset-2 font-['Courier_New'] ${idk}`}
+                    onClick={handleClick}
                   >
                     {title}
                   </Link>
