@@ -17,20 +17,24 @@ const Home = () => {
     <div className="">
       <Navbar />
       {isPersonalPage ? (
-        <div className="w-full p-5 md:flex md:justify-between flex justify-end px-10">
-          <ul className="max-md:hidden">
-            {blogData?.map(({ id, title, slug }) => (
-              <li key={id} className="">
-                <Link
-                  to={`${slug}`}
-                  className="text-white hover:text-gray-800 underline underline-offset-2 font-['Courier_New']"
-                >
-                  {title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <Personal />
+        <div className="w-full p-5 md:flex gap-10 flex px-10 max-md:px-1">
+          <div className="md:flex-1">
+            <ul className="max-md:hidden">
+              {blogData?.map(({ id, title, slug }) => (
+                <li key={id} className="">
+                  <Link
+                    to={`${slug}`}
+                    className="text-white hover:text-neutral-800 underline underline-offset-2 font-['Courier_New']"
+                  >
+                    {title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="md:flex-1">
+            <Personal />
+          </div>
         </div>
       ) : (
         <div className="p-5 px-10">

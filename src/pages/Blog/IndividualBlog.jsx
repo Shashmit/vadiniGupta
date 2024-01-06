@@ -9,11 +9,11 @@ function IndividualBlog({ blog }) {
   return (
     <div className="flex flex-col items-center">
       <p
-        className="poem"
+        className="font-['Courier_New'] text-[#f2f0f0]"
         style={{
           whiteSpace: "pre-line",
           lineHeight: 1.5,
-          textAlign: "end",
+          textAlign: "start",
         }}
       >
         {out.content.text}

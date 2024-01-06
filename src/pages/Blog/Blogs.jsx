@@ -24,7 +24,7 @@ function Blogs() {
                 <li key={id} className="">
                   <Link
                     to={`${slug}`}
-                    className={`text-white hover:text-gray-800 underline underline-offset-2 font-['Courier_New'] ${idk}`}
+                    className={`text-white hover:text-neutral-800 underline underline-offset-2 font-['Courier_New'] ${idk}`}
                     onClick={handleClick}
                   >
                     {title}
