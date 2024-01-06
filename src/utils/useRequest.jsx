@@ -13,6 +13,9 @@ export function useGetBlog() {
         id
         title
         slug
+        coverImage {
+          url
+        }
         content {
           text
         }

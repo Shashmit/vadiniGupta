@@ -18,7 +18,7 @@ function Blogs() {
         "Error fetching blog data"
       ) : (
         <div className="flex">
-          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-end">
+          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-start">
             <Outlet />
           </div>
           <div className="max-md:hidden flex-1 flex justify-end">

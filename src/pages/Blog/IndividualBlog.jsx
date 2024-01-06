@@ -8,7 +8,7 @@ function IndividualBlog({ blog }) {
 
   return (
     <div className="flex flex-col items-center">
-      <p
+      <div
         className="font-['Courier_New'] text-[#f2f0f0]"
         style={{
           whiteSpace: "pre-line",
@@ -16,8 +16,12 @@ function IndividualBlog({ blog }) {
           textAlign: "start",
         }}
       >
-        {out.content.text}
-      </p>
+        <h2 className="text-2xl mb-2 font-semibold">{out.title}</h2>
+        <p>{out.content.text}</p>
+        {out.coverImage && out.coverImage.url !== null ? (
+          <img src={out.coverImage.url} alt="" className="mt-4" />
+        ) : null}
+      </div>
     </div>
   );
 }
