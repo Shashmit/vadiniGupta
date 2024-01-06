@@ -18,7 +18,7 @@ function Blogs() {
         "Error fetching blog data"
       ) : (
         <div className="flex">
-          <div className="max-md:hidden w-2/5">
+          <div className="max-md:hidden flex-1">
             <ul>
               {blogData.map(({ id, title, slug }) => (
                 <li key={id} className="">
@@ -33,7 +33,7 @@ function Blogs() {
               ))}
             </ul>
           </div>
-          <div className="max-md:w-full w-3/5 overflow-x-hidden flex justify-end">
+          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-end">
             <Outlet />
           </div>
         </div>
