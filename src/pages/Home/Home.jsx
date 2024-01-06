@@ -17,17 +17,17 @@ const Home = () => {
     <div className="">
       <Navbar />
       {isPersonalPage ? (
-        <div className="w-full p-3 md:flex gap-10 flex px-10">
-          <div className="md:flex-1 mr-3">
+        <div className="w-full p-3 md:flex md:gap-10 flex px-6">
+          <div className="md:flex-1 mr-1">
             <Personal />
           </div>
-          <div className="md:flex-1">
+          <div className="md:flex-2">
             <ul className="max-md:hidden">
               {blogData?.map(({ id, title, slug }) => (
                 <li key={id} className="">
                   <Link
                     to={`${slug}`}
-                    className="text-white hover:text-neutral-800 underline underline-offset-2 font-['Courier_New']"
+                    className="text-white hover:text-gray-500 underline underline-offset-2 font-['Courier_New']"
                   >
                     {title}
                   </Link>
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
       ) : (
-        <div className="p-5 px-10">
+        <div className="p-3 px-6">
           <Blogs />
         </div>
       )}

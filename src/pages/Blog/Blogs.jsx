@@ -18,13 +18,16 @@ function Blogs() {
         "Error fetching blog data"
       ) : (
         <div className="flex">
-          <div className="max-md:hidden flex-1">
+          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-end">
+            <Outlet />
+          </div>
+          <div className="max-md:hidden flex-1 flex justify-end">
             <ul>
               {blogData.map(({ id, title, slug }) => (
                 <li key={id} className="">
                   <Link
                     to={`${slug}`}
-                    className={`text-white hover:text-neutral-800 underline underline-offset-2 font-['Courier_New'] ${idk}`}
+                    className={`text-white hover:text-gray-500 underline underline-offset-2 font-['Courier_New'] ${idk}`}
                     onClick={handleClick}
                   >
                     {title}
@@ -32,9 +35,6 @@ function Blogs() {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-end">
-            <Outlet />
           </div>
         </div>
       )}
