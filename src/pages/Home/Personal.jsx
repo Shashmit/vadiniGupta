@@ -1,5 +1,6 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
+import { first, second, third, fourth, fifth, sixth } from "../../Assest";
 
 const Personal = () => {
   return (
@@ -13,7 +14,26 @@ const Personal = () => {
           through the pages of a book or engaging conversations with fellow
           enthusiasts, is truly my happy place.
         </p>
-        <div className="columns-2 sm:columns-3"></div>
+        <div className="columns-2 sm:columns-3 mt-2">
+          <div class="relative h-40">
+            <img src={sixth} alt="" className="rounded-lg object-cover" />
+          </div>
+          <div class="relative h-80 sm:mb-0">
+            <img src={third} alt="" className="rounded-lg object-cover" />
+          </div>
+          <div class="relative h-40 sm:h-80 sm:mb-4">
+            <img src={fourth} alt="" className="rounded-lg object-cover" />
+          </div>
+          <div class="relative h-40 mb-4 sm:mb-0">
+            <img src={first} alt="" className="rounded-lg object-cover" />
+          </div>
+          <div class="relative h-40 mb-4">
+            <img src={second} alt="" className="rounded-lg object-cover" />
+          </div>
+          <div class="relative h-80">
+            <img src={fifth} alt="" className="rounded-lg object-cover" />
+          </div>
+        </div>
       </section>
       <footer>
         <a
