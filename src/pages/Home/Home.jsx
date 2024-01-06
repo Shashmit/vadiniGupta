@@ -18,11 +18,11 @@ const Home = () => {
       <Navbar />
       {isPersonalPage ? (
         <div className="w-full p-3 md:flex md:gap-10 flex px-10 md:px-20">
-          <div className="md:flex-1 mr-1">
+          <div className="md:flex-1 mr-1 p-3">
             <Personal />
           </div>
-          <div className="md:flex-2">
-            <ul className="max-md:hidden">
+          <div className="md:flex-2 ">
+            <ul className="max-md:hidden mt-6">
               {blogData?.map(({ id, title, slug }) => (
                 <li key={id} className="">
                   <Link
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
       ) : (
-        <div className="p-3 px-10 md:px-20">
+        <div className="p-3 px-10 md:px-20 mt-6">
           <Blogs />
         </div>
       )}

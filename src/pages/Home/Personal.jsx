@@ -54,7 +54,7 @@ const Personal = () => {
           </span>
           and{" "}
           <span className="border border-neutral-200 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-100 mr-1">
-            Cooking👩‍🍳
+            Baking 👩‍🍳
           </span>
           . As I strive for excellence in both my studies and creative pursuits,
           I eagerly anticipate the opportunity to pursue a Ph.D. in English.
