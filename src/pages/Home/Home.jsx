@@ -21,8 +21,11 @@ const Home = () => {
           <div className="md:flex-1 p-1">
             <Personal />
           </div>
-          <div className="md:flex-2 ">
-            <ul className="max-md:hidden mt-6">
+          <div className="md:flex-2 mt-9 max-md:hidden ">
+            <h2 className="text-xl font-['Courier_New'] text-white mt-7 font-normal">
+              My Poems
+            </h2>
+            <ul className=" mt-6">
               {blogData?.map(({ id, title, slug }) => (
                 <li key={id} className="">
                   <Link
