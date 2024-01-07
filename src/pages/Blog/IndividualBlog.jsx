@@ -16,8 +16,10 @@ function IndividualBlog({ blog }) {
           textAlign: "start",
         }}
       >
-        <h2 className="text-2xl mb-2 font-semibold">{out.title}</h2>
-        <p>{out.content.text}</p>
+        <h2 className="text-2xl mb-5 font-semibold text-[#d89085]">
+          {out.title}
+        </h2>
+        <p className="font-light text-md">{out.content.text}</p>
         {out.coverImage && out.coverImage.url !== null ? (
           <img src={out.coverImage.url} alt="" className="mt-4" />
         ) : null}

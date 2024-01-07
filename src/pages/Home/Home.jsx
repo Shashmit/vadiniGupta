@@ -17,8 +17,8 @@ const Home = () => {
     <div className="">
       <Navbar />
       {isPersonalPage ? (
-        <div className="w-full p-3 md:flex md:gap-10 flex px-8 md:px-20">
-          <div className="md:flex-1 p-1">
+        <div className="w-full md:flex md:gap-10 flex px-6 md:px-20">
+          <div className="md:flex-1 p-1 mt-2">
             <Personal />
           </div>
           <div className="md:flex-2 mt-9 max-md:hidden ">
@@ -40,7 +40,7 @@ const Home = () => {
           </div>
         </div>
       ) : (
-        <div className="p-3 px-10 md:px-20 mt-6">
+        <div className="px-7 md:px-20 mt-4">
           <Blogs />
         </div>
       )}

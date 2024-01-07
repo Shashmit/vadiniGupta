@@ -17,15 +17,15 @@ function Blogs() {
       ) : status === "error" ? (
         "Error fetching blog data"
       ) : (
-        <div className="flex gap-10">
-          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-start">
+        <div className="flex gap-10 ">
+          <div className="max-md:w-full flex-1 overflow-x-hidden flex justify-start md:p-8">
             <Outlet />
           </div>
           <div className="max-md:hidden">
-            <h2 className="text-xl font-['Courier_New'] text-white mt-10 font-normal mb-6">
+            <h2 className="text-xl font-['Courier_New'] text-white mt-12 font-normal mb-6">
               My Poems
             </h2>
-            <div className=" flex-1  flex justify-end">
+            <div className=" flex-1 flex justify-end">
               <ul>
                 {blogData.map(({ id, title, slug }) => (
                   <li key={id} className="">
