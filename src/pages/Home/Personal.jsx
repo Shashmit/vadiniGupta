@@ -12,16 +12,16 @@ const Personal = () => {
         <p className="font-light text-md tracking-normal leading-7">
           I'm an aspiring{" "}
           <span className="border border-[#5fa5a6] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            🖊 writer
+            writer 🖊
           </span>
           who is currently navigating the intricate landscapes of the MA English
           program at{" "}
           <span className="border border-[#e53c4f] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            🏛️ Patna Women's College
+            Patna Women's College 🏛️
           </span>
           and I must say,{" "}
           <span className="border border-[#e0e0d0] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            📖 literature
+            literature 📖
           </span>
           is the boat sailing my soul. Finding solace in the beauty of words,
           whether through romantic classics or postmodern text or engaging
@@ -56,14 +56,15 @@ const Personal = () => {
           have worked on multiple projects to showcase my knowledge. In my free
           time I enjoy{" "}
           <span className="border border-[#c5a261] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            🎨 Drawing
+            Drawing 🎨
           </span>
           and{" "}
           <span className="border border-[#ff3b32] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            👩‍🍳 Baking
+            Baking 👩‍🍳
           </span>
-          . As I strive for excellence in both my academics and creative pursuits,
-          I eagerly anticipate the opportunity to pursue a Ph.D. in English.
+          . As I strive for excellence in both my academics and creative
+          pursuits, I eagerly anticipate the opportunity to pursue a Ph.D. in
+          English.
         </p>
         <h2 className="text-5xl max-w-md mx-auto text-center">...</h2>
         <div className="max-w-md mx-auto p-2 text-center">
