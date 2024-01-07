@@ -23,7 +23,7 @@ const Personal = () => {
           or engaging conversations with fellow enthusiasts, is truly my happy
           place.
         </p>
-        <div className="columns-2 md:columns-2 mt-8 md:w-fit md:mx-auto ">
+        <div className="columns-2 md:columns-2 mt-5 md:w-fit md:mx-auto ">
           <div class="relative h-40 sm:mb-4 ">
             <img
               src={fifth}
@@ -47,7 +47,7 @@ const Personal = () => {
             />
           </div>
         </div>
-        <p className="mt-2 font-light tracking-normal leading-7">
+        <p className="mt-4 font-light tracking-normal leading-7 ">
           My passion for literature extends to my creative expressions, and I
           have worked on multiple projects to showcase my knowledge. In my free
           time, I enjoy{" "}
@@ -61,7 +61,8 @@ const Personal = () => {
           . As I strive for excellence in both my studies and creative pursuits,
           I eagerly anticipate the opportunity to pursue a Ph.D. in English.
         </p>
-        <div className="max-w-md mx-auto p-4 text-center">
+        <h2 className="text-5xl max-w-md mx-auto text-center">...</h2>
+        <div className="max-w-md mx-auto p-2 text-center">
           <p class="italic font-serif text-lg leading-7">
             Her eyes might not be beautiful but her sight surely is.
             <br />
@@ -80,8 +81,10 @@ const Personal = () => {
             <br />
             She isn't perfect but SHE IS!
           </p>
+          <h2 className="text-5xl max-w-md mx-auto text-center">...</h2>
         </div>
-        <div className="mt-7">
+
+        <div className="mt-2">
           <a
             href="https://drive.google.com/file/d/1YXYVL_tbe6PCeq_PiZSZN0Cbi5nleDkJ/view"
             class="border border-neutral-200 bg-neutral-50rounded flex items-center justify-between px-3 py-4 w-full hover:text-gray-500 hover:border-gray-500 transition-all"
