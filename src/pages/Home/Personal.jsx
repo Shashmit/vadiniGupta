@@ -24,7 +24,7 @@ const Personal = () => {
             literature 📖
           </span>
           is the boat sailing my soul. Finding solace in the beauty of words,
-          whether through romantic classics or postmodern text or engaging
+          whether through romantic classics or postmodern texts or engaging
           conversations with fellow enthusiasts, is truly my happy place.
         </p>
         <div className="columns-2 md:columns-2 mt-5 md:w-fit md:mx-auto ">
