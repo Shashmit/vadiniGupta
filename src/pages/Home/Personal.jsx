@@ -9,7 +9,7 @@ const Personal = () => {
         <h1 class="font-semibold text-2xl mb-8 max-sm:mt-3">
           Hey, I'm <span className="text-[#d89085]">Vadini </span> 📇
         </h1>
-        <p className="font-light tracking-normal leading-7">
+        <p className="font-light text-md tracking-normal leading-7">
           I'm currently navigating the intricate landscapes of the MA English
           program at{" "}
           <span className="border border-[#e53c4f] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
@@ -47,7 +47,7 @@ const Personal = () => {
             />
           </div>
         </div>
-        <p className="mt-4 font-light tracking-normal leading-7 ">
+        <p className="mt-4 font-light text-md tracking-normal leading-7 ">
           My passion for literature extends to my creative expressions, and I
           have worked on multiple projects to showcase my knowledge. In my free
           time, I enjoy{" "}
@@ -87,7 +87,7 @@ const Personal = () => {
         <div className="mt-2">
           <a
             href="https://drive.google.com/file/d/1YXYVL_tbe6PCeq_PiZSZN0Cbi5nleDkJ/view"
-            class="border border-neutral-200 bg-neutral-50rounded flex items-center justify-between px-3 py-4 w-full hover:text-gray-500 hover:border-gray-500 transition-all"
+            class="border border-neutral-200 bg-neutral-50rounded flex items-center justify-between px-4 py-3 w-full hover:text-gray-500  transition-all"
           >
             <p class="font-medium text-neutral-100 ">
               BREAKING THE SILENCE: ADVANCING MENSTRUAL HYGIENE
@@ -95,7 +95,7 @@ const Personal = () => {
             <GoArrowUpRight className="h-6 w-6" />
           </a>
         </div>
-        <p className="mt-4">
+        <p className="mt-4 font-light text-md">
           Join me on this journey where words effortlessly weave tales of
           exploration, expression, and meaningful impact.
         </p>
@@ -108,7 +108,7 @@ const Personal = () => {
               className="flex items-center hover:text-gray-500 transition-all"
               target="_blank"
             >
-              <GoArrowUpRight className="h-6 w-6" />
+              <GoArrowUpRight className="h-6 w-6 " />
               <p className="h-7 ml-2">get a glimpse</p>
             </a>
           </li>
