@@ -10,18 +10,22 @@ const Personal = () => {
           Hey, I'm <span className="text-[#d89085]">Vadini </span> 📇
         </h1>
         <p className="font-light text-md tracking-normal leading-7">
-          I'm currently navigating the intricate landscapes of the MA English
+          I'm an aspiring{" "}
+          <span className="border border-[#5fa5a6] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
+            🖊 writer
+          </span>
+          who is currently navigating the intricate landscapes of the MA English
           program at{" "}
           <span className="border border-[#e53c4f] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
             🏛️ Patna Women's College
           </span>
-          , and I must say, my enthusiasm for literature runs deep. Finding
-          solace in the beauty of words, whether through the{" "}
+          and I must say,{" "}
           <span className="border border-[#e0e0d0] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
-            📖 pages of a book
+            📖 literature
           </span>
-          or engaging conversations with fellow enthusiasts, is truly my happy
-          place.
+          is the boat sailing my soul. Finding solace in the beauty of words,
+          whether through romantic classics or postmodern text or engaging
+          conversations with fellow enthusiasts, is truly my happy place.
         </p>
         <div className="columns-2 md:columns-2 mt-5 md:w-fit md:mx-auto ">
           <div class="relative h-40 sm:mb-4 ">
@@ -50,7 +54,7 @@ const Personal = () => {
         <p className="mt-4 font-light text-md tracking-normal leading-7 ">
           My passion for literature extends to my creative expressions, and I
           have worked on multiple projects to showcase my knowledge. In my free
-          time, I enjoy{" "}
+          time I enjoy{" "}
           <span className="border border-[#c5a261] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
             🎨 Drawing
           </span>
@@ -58,7 +62,7 @@ const Personal = () => {
           <span className="border border-[#ff3b32] rounded p-1 text-sm inline-flex items-center leading-3 text-neutral-100 mr-1">
             👩‍🍳 Baking
           </span>
-          . As I strive for excellence in both my studies and creative pursuits,
+          . As I strive for excellence in both my academics and creative pursuits,
           I eagerly anticipate the opportunity to pursue a Ph.D. in English.
         </p>
         <h2 className="text-5xl max-w-md mx-auto text-center">...</h2>
