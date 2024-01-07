@@ -20,6 +20,10 @@ function IndividualBlog({ blog }) {
           {out.title}
         </h2>
         <p className="font-light text-md">{out.content.text}</p>
+        <div className="flex justify-end max-w-full items-end">
+          <h2 className="text-5xl ">___</h2>
+        </div>
+
         {out.coverImage && out.coverImage.url !== null ? (
           <img src={out.coverImage.url} alt="" className="mt-4" />
         ) : null}

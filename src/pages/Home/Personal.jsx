@@ -6,7 +6,7 @@ const Personal = () => {
   return (
     <div className="text-[#f2f0f0] md:p-8">
       <section>
-        <h1 class="font-medium text-2xl mb-8 max-sm:mt-3">
+        <h1 class="font-semibold text-2xl mb-8 max-sm:mt-3">
           Hey, I'm <span className="text-[#d89085]">Vadini </span> 📇
         </h1>
         <p className="font-light tracking-normal leading-7">
